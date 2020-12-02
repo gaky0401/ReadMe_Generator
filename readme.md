@@ -1,49 +1,51 @@
-# readme take 2
+# ReadMe Generator
 
 Table of Contents
 
-        [Description](#description)
+        [Description](# description)
 
-        [Installation Instructions](#installation-instructions)
+        [Installation Instructions](# installation-instructions)
 
-        [Usage Information](#usage-information)
+        [Usage Information](# usage-information)
 
-        [License](#license)
+        [License](# license)
 
-        [Contribution Guidelines](#contribution-guidelines)
+        [Contribution Guidelines](# contribution-guidelines)
 
-        [Test Instructions](#test-instructions)
+        [Test Instructions](# test-instructions)
 
-        [Github Profile](#github-profile)
+        [Github Profile](# github-profile)
 
-        [E-mail Address](#e-mail-address)
+        [E-mail Address](# e-mail-address)
 
 ## Description
 
-        run the code and input your answers to the questions and you will get a usable generated .readme file.
+        It generates professional readme files to attach to any project.
 
 ## Installation Instructions
 
-        install node onto your computer and inquirer into your bash terminal to use properly.
+        install node and inquirer
 
 ## Usage Information
 
-        to use, just enter the command "node index.js" into the terminal when you are in the folder that contains the file.
+        to run in bash "node index.js"
 
 ## License
 
-        MIT
+        Apache
 
 ## Contribution Guidelines
 
-        Open contribution as long as it betters the project in some way.
+        Only include contributions that enhance the project
 
 ## Test Instructions
 
-        test yourself as you would any program before uploading.
+        test freely at your own will.
+
 ## Github Profile
 
         [Github Profile](www.github.com/gaky0401/)
+
 ## E-mail address
 
         gaky0401@gmail.com
