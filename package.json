@@ -18,6 +18,7 @@
   "homepage": "https://github.com/gaky0401/ReadMe_Generator#readme",
   "dependencies": {
     "inquire": "^0.4.8",
+    "inquirer": "^7.3.3",
     "install": "^0.13.0"
   }
 }
