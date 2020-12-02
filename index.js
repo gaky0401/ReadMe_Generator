@@ -28,7 +28,7 @@ inquirer
             type: "list", 
             name: "license",
             message: "Select a license for your project:",
-            choices: ["GNU", "Apache", "Berkeley Software Distribution", "MIT"],
+            choices: ["GNU", "Apache", "BSD", "MIT"],
         },
         {
             type: "input",
@@ -73,6 +73,9 @@ inquirer
         [Test Instructions](#test-instructions)\n
         [Github Username](#github-username)\n
         [E-mail Address](#e-mail-address)\n`;
+
+        readMeContent += `## Description\n
+        ${response.description}\n`;
 
         fs.writeFile("readme.md", readMeContent, error => error ? console.log(error) : console.log("Great Success!"));
     }
