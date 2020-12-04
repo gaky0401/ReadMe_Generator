@@ -28,7 +28,7 @@ inquirer
             type: "list", 
             name: "license",
             message: "Select a license for your project:",
-            choices: ["GNU", "Apache", "BSD", "MIT"],
+            choices: ["GPLv3", "Apache202.0", "BSD203", "MIT"],
         },
         {
             type: "input",
@@ -60,6 +60,10 @@ inquirer
     })
     function createReadMe(response) {
         let readMeContent = "";
+        
+        // adding the license image
+        readMeContent += `![License: GPL v3](https://img.shields.io/badge/License-${response.license}-blue.svg)\n`;
+    
         // creating the title
         
         readMeContent += `# ${response.title}\n`;

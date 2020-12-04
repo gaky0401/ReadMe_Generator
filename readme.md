@@ -1,4 +1,5 @@
-# 
+![License: GPL v3](https://img.shields.io/badge/License-Apache202.0-blue.svg)
+# ReadMe Generator
 
 Table of Contents
 
@@ -20,27 +21,27 @@ Table of Contents
 
 ## Description
 
-        
+        Enter information when prompted and a usable readme file will be generated.
 
 ## Installation Instructions
 
-        
+        Install node and Inquirer for use.
 
 ## Usage Information
 
-        
+        when you are in the folder of the readme generator, go to your terminal and enter the command "node index.js" to run.
 
 ## License
 
-        GNU
+        Apache202.0
 
 ## Contribution Guidelines
 
-        
+        Only contribute updates and enhancements to the current project.
 
 ## Test Instructions
 
-        
+        Test as you would normally test any of your projects.
 
 ## Github Profile
 
@@ -48,4 +49,4 @@ Table of Contents
 
 ## E-mail address
 
-        
+        gaky0401@gmail.com
