@@ -65,14 +65,14 @@ inquirer
         readMeContent += `# ${response.title}\n`;
         // creating the table of contents
         readMeContent += `\nTable of Contents\n
-        [Description](# description)\n
-        [Installation Instructions](# installation-instructions)\n
-        [Usage Information](# usage-information)\n
-        [License](# license)\n
-        [Contribution Guidelines](# contribution-guidelines)\n
-        [Test Instructions](# test-instructions)\n
-        [Github Profile](# github-profile)\n
-        [E-mail Address](# e-mail-address)\n`;
+[Description](#description)\n
+[Installation Instructions](#installation-instructions)\n
+[Usage Information](#usage-information)\n
+[License](#license)\n
+[Contribution Guidelines](#contribution-guidelines)\n
+[Test Instructions](#test-instructions)\n
+[Github Profile](#github-profile)\n
+[E-mail Address](#e-mail-address)\n`;
         
         // creating the description
         readMeContent += `\n## Description\n
@@ -100,7 +100,7 @@ inquirer
         
         // creating github profile link
         readMeContent += `\n## Github Profile\n
-        [Github Profile](www.github.com/${response.github}/)\n`;
+[Github Profile](www.github.com/${response.github}/)\n`;
         
         // creating e-mail address
         readMeContent += `\n## E-mail address\n
