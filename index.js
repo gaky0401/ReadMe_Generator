@@ -80,35 +80,35 @@ inquirer
         
         // creating the description
         readMeContent += `\n## Description\n
-        ${response.description}\n`;
+${response.description}\n`;
         
         // creating the install instructions
         readMeContent += `\n## Installation Instructions\n
-        ${response.installation}\n`;
+${response.installation}\n`;
         
         // creating usage information
         readMeContent += `\n## Usage Information\n
-        ${response.usage}\n`;
+${response.usage}\n`;
         
         //creating license information
         readMeContent += `\n## License\n
-        ${response.license}\n`;
+${response.license}\n`;
         
         // creating contribution guidelines
         readMeContent += `\n## Contribution Guidelines\n
-        ${response.contribution}\n`;
+${response.contribution}\n`;
         
         // creating test instructions
         readMeContent += `\n## Test Instructions\n
-        ${response.test}\n`;
+${response.test}\n`;
         
         // creating github profile link
         readMeContent += `\n## Github Profile\n
-[Github Profile](www.github.com/${response.github}/)\n`;
+[Github Profile](https://github.com/${response.github}/)\n`;
         
         // creating e-mail address
         readMeContent += `\n## E-mail address\n
-        ${response.email}`;
+${response.email}`;
         
         // write to a new file and return an error in console log if it fails
         fs.writeFile("readme.md", readMeContent, error => error ? console.log(error) : console.log("Great Success!"));
